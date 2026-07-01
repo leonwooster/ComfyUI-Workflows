@@ -2,14 +2,14 @@
   "id": "8b2109f7-b06b-42e3-9b00-a6c6d03c002d",
   "revision": 0,
   "last_node_id": 229,
-  "last_link_id": 513,
+  "last_link_id": 517,
   "nodes": [
     {
       "id": 187,
       "type": "PrimitiveFloat",
       "pos": [
-        3660,
-        1200
+        1260,
+        680
       ],
       "size": [
         225,
@@ -69,8 +69,8 @@
       "id": 188,
       "type": "PrimitiveInt",
       "pos": [
-        3660,
-        1000
+        1260,
+        500
       ],
       "size": [
         225,
@@ -129,15 +129,15 @@
       "id": 192,
       "type": "SetNode",
       "pos": [
-        4120,
-        740
+        40,
+        7420
       ],
       "size": [
         225,
         107.265625
       ],
       "flags": {},
-      "order": 28,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
@@ -174,8 +174,8 @@
       "id": 199,
       "type": "LTXVAudioVAEDecode",
       "pos": [
-        6880,
-        80
+        480,
+        4640
       ],
       "size": [
         240,
@@ -184,7 +184,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 42,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -231,8 +231,8 @@
       "id": 200,
       "type": "CreateVideo",
       "pos": [
-        7320,
-        80
+        40,
+        5160
       ],
       "size": [
         270,
@@ -241,7 +241,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 43,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -294,15 +294,15 @@
       "id": 202,
       "type": "SaveVideo",
       "pos": [
-        7800,
-        80
+        520,
+        5160
       ],
       "size": [
         1000,
-        900
+        1217.71875
       ],
       "flags": {},
-      "order": 44,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -342,8 +342,8 @@
       "id": 203,
       "type": "LTXVSeparateAVLatent",
       "pos": [
-        6480,
-        80
+        40,
+        4640
       ],
       "size": [
         225,
@@ -352,7 +352,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 40,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -400,8 +400,8 @@
       "id": 205,
       "type": "GetNode",
       "pos": [
-        3040,
-        1640
+        40,
+        760
       ],
       "size": [
         225,
@@ -441,10 +441,10 @@
       "type": "SimpleMath+",
       "pos": [
         40,
-        1580
+        4140
       ],
       "size": [
-        251.59375,
+        251.5625,
         155.265625
       ],
       "flags": {},
@@ -510,11 +510,11 @@
       "id": 145,
       "type": "VAELoaderKJ",
       "pos": [
-        3040,
-        920
+        660,
+        80
       ],
       "size": [
-        396.390625,
+        396.359375,
         167.265625
       ],
       "flags": {},
@@ -557,17 +557,17 @@
       "id": 201,
       "type": "VAEDecodeTiled",
       "pos": [
-        6880,
-        240
+        480,
+        4820
       ],
       "size": [
-        234.953125,
+        234.921875,
         150
       ],
       "flags": {
         "collapsed": false
       },
-      "order": 41,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -623,8 +623,8 @@
       "id": 204,
       "type": "GetNode",
       "pos": [
-        3040,
-        1320
+        660,
+        560
       ],
       "size": [
         225,
@@ -663,8 +663,8 @@
       "id": 210,
       "type": "GetNode",
       "pos": [
-        3040,
-        1140
+        660,
+        340
       ],
       "size": [
         225,
@@ -704,14 +704,14 @@
       "type": "CLIPTextEncode",
       "pos": [
         40,
-        80
+        2180
       ],
       "size": [
         400,
         200
       ],
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "inputs": [
         {
@@ -759,14 +759,14 @@
       "type": "LoraLoaderModelOnly",
       "pos": [
         40,
-        780
+        3320
       ],
       "size": [
         390,
         111.265625
       ],
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "inputs": [
         {
@@ -823,15 +823,15 @@
       "id": 177,
       "type": "UnetLoaderGGUF",
       "pos": [
-        3040,
+        40,
         80
       ],
       "size": [
-        393.828125,
+        393.796875,
         103.265625
       ],
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -865,15 +865,15 @@
       "id": 146,
       "type": "DualCLIPLoader",
       "pos": [
-        3040,
-        260
+        40,
+        480
       ],
       "size": [
-        401.625,
+        401.59375,
         171.265625
       ],
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -914,8 +914,8 @@
       "id": 206,
       "type": "SetNode",
       "pos": [
-        3660,
-        280
+        660,
+        1260
       ],
       "size": [
         225,
@@ -959,15 +959,15 @@
       "id": 198,
       "type": "GetNode",
       "pos": [
-        3040,
-        1480
+        40,
+        280
       ],
       "size": [
         225,
         103.265625
       ],
       "flags": {},
-      "order": 10,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -999,15 +999,15 @@
       "id": 101,
       "type": "LatentUpscaleModelLoader",
       "pos": [
-        3040,
-        2040
+        40,
+        1220
       ],
       "size": [
         390,
         79.265625
       ],
       "flags": {},
-      "order": 11,
+      "order": 10,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1056,8 +1056,8 @@
       "id": 211,
       "type": "Anything Everywhere",
       "pos": [
-        3660,
-        80
+        660,
+        760
       ],
       "size": [
         225,
@@ -1127,8 +1127,8 @@
       "id": 107,
       "type": "LTXVConditioning",
       "pos": [
-        3660,
-        620
+        1251.942361340737,
+        1537.5548127709485
       ],
       "size": [
         270,
@@ -1137,13 +1137,13 @@
       "flags": {
         "collapsed": false
       },
-      "order": 24,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
           "name": "positive",
           "type": "CONDITIONING",
-          "link": 512
+          "link": 511
         },
         {
           "name": "negative",
@@ -1203,14 +1203,14 @@
       "type": "GetNode",
       "pos": [
         40,
-        540
+        2680
       ],
       "size": [
         225,
         103.265625
       ],
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1242,15 +1242,15 @@
       "id": 189,
       "type": "Note",
       "pos": [
-        8960,
-        440
+        3000,
+        0
       ],
       "size": [
-        511.953125,
-        132.734375
+        511.921875,
+        132.703125
       ],
       "flags": {},
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1271,15 +1271,15 @@
       "id": 209,
       "type": "a26a6bb4-a7d9-4c99-8d4d-8affd8f64fd3",
       "pos": [
-        5560,
-        80
+        1000,
+        1780
       ],
       "size": [
         225,
         219.265625
       ],
       "flags": {},
-      "order": 38,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -1373,15 +1373,15 @@
       "id": 208,
       "type": "5661f8ed-6ebb-4027-9d6d-293e70874744",
       "pos": [
-        6020,
-        80
+        40,
+        2960
       ],
       "size": [
         225,
         171.265625
       ],
       "flags": {},
-      "order": 39,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -1438,7 +1438,7 @@
       "type": "LoraLoaderModelOnly",
       "pos": [
         640,
-        780
+        3320
       ],
       "size": [
         390,
@@ -1501,14 +1501,14 @@
       "type": "LoraLoaderModelOnly",
       "pos": [
         1240,
-        780
+        3320
       ],
       "size": [
         390,
         111.265625
       ],
       "flags": {},
-      "order": 29,
+      "order": 28,
       "mode": 4,
       "inputs": [
         {
@@ -1564,14 +1564,14 @@
       "type": "LoraLoaderModelOnly",
       "pos": [
         1840,
-        780
+        3320
       ],
       "size": [
         390,
         111.265625
       ],
       "flags": {},
-      "order": 34,
+      "order": 33,
       "mode": 4,
       "inputs": [
         {
@@ -1627,14 +1627,14 @@
       "type": "LoraLoaderModelOnly",
       "pos": [
         2440,
-        780
+        3320
       ],
       "size": [
         390,
         111.265625
       ],
       "flags": {},
-      "order": 36,
+      "order": 35,
       "mode": 4,
       "inputs": [
         {
@@ -1690,14 +1690,14 @@
       "type": "LoadImage",
       "pos": [
         40,
-        1060
+        3620
       ],
       "size": [
         401,
-        426.375
+        426.34375
       ],
       "flags": {},
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1736,8 +1736,8 @@
       "id": 218,
       "type": "EmptyLTXVLatentVideo",
       "pos": [
-        4600,
-        80
+        40,
+        1780
       ],
       "size": [
         270,
@@ -1746,7 +1746,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 35,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -1817,15 +1817,15 @@
       "id": 219,
       "type": "LTXVPreprocess",
       "pos": [
-        4120,
-        560
+        40,
+        7240
       ],
       "size": [
-        255.828125,
+        255.796875,
         79.265625
       ],
       "flags": {},
-      "order": 30,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -1870,15 +1870,15 @@
       "id": 220,
       "type": "SetNode",
       "pos": [
-        4120,
-        900
+        40,
+        7620
       ],
       "size": [
         225,
         107.265625
       ],
       "flags": {},
-      "order": 31,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -1915,17 +1915,17 @@
       "id": 224,
       "type": "GetImageSize",
       "pos": [
-        4120,
-        340
+        40,
+        6980
       ],
       "size": [
-        258.078125,
-        159.265625
+        258.046875,
+        159.25
       ],
       "flags": {
         "collapsed": false
       },
-      "order": 32,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -1979,14 +1979,14 @@
       "type": "PrimitiveInt",
       "pos": [
         40,
-        1880
+        6240
       ],
       "size": [
         300,
         82
       ],
       "flags": {},
-      "order": 15,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2019,7 +2019,7 @@
         "secondTabWidth": 65
       },
       "widgets_values": [
-        5,
+        15,
         "fixed"
       ],
       "color": "#233",
@@ -2029,8 +2029,8 @@
       "id": 106,
       "type": "LTXVEmptyLatentAudio",
       "pos": [
-        4120,
-        80
+        40,
+        6720
       ],
       "size": [
         270,
@@ -2039,7 +2039,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 33,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -2105,14 +2105,14 @@
       "type": "GetNode",
       "pos": [
         40,
-        380
+        2480
       ],
       "size": [
         225,
         103.265625
       ],
       "flags": {},
-      "order": 16,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2144,17 +2144,17 @@
       "id": 225,
       "type": "LTXVImgToVideoInplace",
       "pos": [
-        5080,
-        80
+        520,
+        1780
       ],
       "size": [
-        273.078125,
+        273.046875,
         155.265625
       ],
       "flags": {
         "collapsed": false
       },
-      "order": 37,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -2219,15 +2219,15 @@
       "id": 207,
       "type": "SetNode",
       "pos": [
-        3660,
-        460
+        1260,
+        80
       ],
       "size": [
         225,
         107.265625
       ],
       "flags": {},
-      "order": 27,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -2264,15 +2264,15 @@
       "id": 153,
       "type": "VAELoaderKJ",
       "pos": [
-        3040,
-        1820
+        40,
+        960
       ],
       "size": [
-        389.53125,
+        389.5,
         167.265625
       ],
       "flags": {},
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2312,14 +2312,14 @@
       "type": "GetNode",
       "pos": [
         40,
-        2080
+        6440
       ],
       "size": [
         225,
         103.265625
       ],
       "flags": {},
-      "order": 18,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2351,8 +2351,8 @@
       "id": 223,
       "type": "ResizeImagesByLongerEdge",
       "pos": [
-        3660,
-        840
+        1260,
+        280
       ],
       "size": [
         348.609375,
@@ -2361,7 +2361,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 25,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
@@ -2408,15 +2408,15 @@
       "id": 226,
       "type": "SimpleMath+",
       "pos": [
-        3660,
-        1360
+        660,
+        1000
       ],
       "size": [
-        251.59375,
+        251.5625,
         155.265625
       ],
       "flags": {},
-      "order": 26,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
@@ -2476,12 +2476,12 @@
       "id": 227,
       "type": "PromptRelayEncodeTimeline",
       "pos": [
-        3040,
-        1960
+        1260,
+        860
       ],
       "size": [
         840,
-        520
+        621.03125
       ],
       "flags": {},
       "order": 37,
@@ -2503,18 +2503,18 @@
           "link": 506
         },
         {
+          "name": "relay_options",
+          "shape": 7,
+          "type": "RELAY_OPTIONS",
+          "link": null
+        },
+        {
           "name": "max_frames",
           "type": "INT",
           "widget": {
             "name": "max_frames"
           },
           "link": 507
-        },
-        {
-          "name": "relay_options",
-          "shape": 7,
-          "type": "RELAY_OPTIONS",
-          "link": null
         }
       ],
       "outputs": [
@@ -2533,147 +2533,62 @@
           ]
         }
       ],
-      "title": "Prompt Relay Encode (Timeline)",
       "properties": {
-        "Node name for S&R": "PromptRelayEncodeTimeline"
-      },
-      "widgets_values": [
-        "Style: cinematic, ultra realistic, photorealistic, Hollywood movie, emotional storytelling, high-end cinematography, shallow depth of field, natural lighting, 8K details.\n\nA luxurious European-style mansion at golden hour. The camera begins with a close-up behind a handsome young man wearing an elegant black suit as he slowly reaches for the large polished wooden front door. The camera gently pushes forward as he turns the brass handle and slowly opens the massive door.\n\nWarm sunlight streams through the entrance, revealing an elegant grand foyer decorated with marble floors, crystal chandeliers, classical paintings, luxurious furniture, and beautiful architectural details. Dust particles float softly in the warm light.\n\nThe camera follows closely behind him as he steps inside. He suddenly notices a beautiful young woman standing several meters away. She has long silky dark hair, expressive eyes, soft natural makeup, and wears an elegant flowing white dress. She turns toward him with a calm expression.\n\nThe man's face instantly fills with overwhelming happiness and relief. Without hesitation, he quickly walks toward her before breaking into a short run. The camera smoothly tracks alongside him.\n\nHe gently wraps both arms around her in a warm, emotional embrace. The woman is completely caught off guard. Her eyes widen in surprise, her body slightly stiffens for a brief moment, and she softly gasps. After a second, her expression gradually softens into warmth as she slowly returns the embrace.\n\nThe camera slowly circles around the couple while sunlight pours through the mansion windows, creating beautiful cinematic lens flares and soft volumetric lighting. The luxurious background remains visible with elegant decorations, giving the scene an emotional, romantic atmosphere.\n\nHighly detailed skin texture, realistic facial expressions, natural body movement, physically accurate cloth simulation, subtle breathing animation, realistic eye contact, professional film composition, smooth camera motion, premium cinematic color grading.\n",
-        97,
-        "",
-        "Scene continues naturally",
-        "",
-        0.001,
-        "",
-        24,
-        "frames"
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
-      "id": 121,
-      "type": "CLIPTextEncode",
-      "pos": [
-        3040,
-        500
-      ],
-      "size": [
-        410,
-        320
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            510
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.56",
-        "Node name for S&R": "CLIPTextEncode",
+        "Node name for S&R": "PromptRelayEncodeTimeline",
         "ue_properties": {
           "widget_ue_connectable": {
-            "text": true
+            "max_frames": true
           },
-          "version": "7.7",
+          "version": "7.8",
           "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
-        "Style: cinematic, ultra realistic, photorealistic, Hollywood movie, emotional storytelling, high-end cinematography, shallow depth of field, natural lighting, 8K details.\n\nA luxurious European-style mansion at golden hour. The camera begins with a close-up behind a handsome young man wearing an elegant black suit as he slowly reaches for the large polished wooden front door. The camera gently pushes forward as he turns the brass handle and slowly opens the massive door.\n\nWarm sunlight streams through the entrance, revealing an elegant grand foyer decorated with marble floors, crystal chandeliers, classical paintings, luxurious furniture, and beautiful architectural details. Dust particles float softly in the warm light.\n\nThe camera follows closely behind him as he steps inside. He suddenly notices a beautiful young woman standing several meters away. She has long silky dark hair, expressive eyes, soft natural makeup, and wears an elegant flowing white dress. She turns toward him with a calm expression.\n\nThe man's face instantly fills with overwhelming happiness and relief. Without hesitation, he quickly walks toward her before breaking into a short run. The camera smoothly tracks alongside him.\n\nHe gently wraps both arms around her in a warm, emotional embrace. The woman is completely caught off guard. Her eyes widen in surprise, her body slightly stiffens for a brief moment, and she softly gasps. After a second, her expression gradually softens into warmth as she slowly returns the embrace.\n\nThe camera slowly circles around the couple while sunlight pours through the mansion windows, creating beautiful cinematic lens flares and soft volumetric lighting. The luxurious background remains visible with elegant decorations, giving the scene an emotional, romantic atmosphere.\n\nHighly detailed skin texture, realistic facial expressions, natural body movement, physically accurate cloth simulation, subtle breathing animation, realistic eye contact, professional film composition, smooth camera motion, premium cinematic color grading.\n"
+        "Style: cinematic, ultra realistic, photorealistic, Hollywood movie, emotional storytelling, high-end cinematography, shallow depth of field, natural lighting, 8K details.\n\nA luxurious European-style mansion at golden hour. The camera begins with a close-up behind a handsome young man wearing an elegant black suit as he slowly reaches for the large polished wooden front door. The camera gently pushes forward as he turns the brass handle and slowly opens the massive door.\n\nWarm sunlight streams through the entrance, revealing an elegant grand foyer decorated with marble floors, crystal chandeliers, classical paintings, luxurious furniture, and beautiful architectural details. Dust particles float softly in the warm light.\n\nThe camera follows closely behind him as he steps inside. He suddenly notices a beautiful young woman standing several meters away. She has long silky dark hair, expressive eyes, soft natural makeup, and wears an elegant flowing white dress. She turns toward him with a calm expression.\n\nThe man's face instantly fills with overwhelming happiness and relief. Without hesitation, he quickly walks toward her before breaking into a short run. The camera smoothly tracks alongside him.\n\nHe gently wraps both arms around her in a warm, emotional embrace. The woman is completely caught off guard. Her eyes widen in surprise, her body slightly stiffens for a brief moment, and she softly gasps. After a second, her expression gradually softens into warmth as she slowly returns the embrace.\n\nThe camera slowly circles around the couple while sunlight pours through the mansion windows, creating beautiful cinematic lens flares and soft volumetric lighting. The luxurious background remains visible with elegant decorations, giving the scene an emotional, romantic atmosphere.\n\nHighly detailed skin texture, realistic facial expressions, natural body movement, physically accurate cloth simulation, subtle breathing animation, realistic eye contact, professional film composition, smooth camera motion, premium cinematic color grading.\n",
+        97,
+        "{\"segments\":[{\"prompt\":\"A luxurious European-style mansion at golden hour. The camera begins with a close-up behind a handsome young man wearing an elegant black suit as he slowly reaches for the large polished wooden front door. The camera gently pushes forward as he turns the brass handle and slowly opens the massive door.\",\"length\":12,\"color\":\"#4f8edc\"},{\"prompt\":\"Warm sunlight streams through the entrance, revealing an elegant grand foyer decorated with marble floors, crystal chandeliers, classical paintings, luxurious furniture, and beautiful architectural details. Dust particles float softly in the warm light.\",\"length\":12,\"color\":\"#e07b3a\"},{\"prompt\":\"The camera follows closely behind him as he steps inside. He suddenly notices a beautiful young woman standing several meters away. She has long silky dark hair, expressive eyes, soft natural makeup, and wears an elegant flowing white dress. She turns toward him with a calm expression.\",\"length\":15,\"color\":\"#5cb85c\"},{\"prompt\":\"\\nThe man's face instantly fills with overwhelming happiness and relief. Without hesitation, he quickly walks toward her before breaking into a short run. The camera smoothly tracks alongside him.\",\"length\":18,\"color\":\"#d9534f\"},{\"prompt\":\"He gently wraps both arms around her in a warm, emotional embrace. The woman is completely caught off guard. Her eyes widen in surprise, her body slightly stiffens for a brief moment, and she softly gasps. After a second, her expression gradually softens into warmth as she slowly returns the embrace.\",\"length\":27,\"color\":\"#9b6cd6\"},{\"prompt\":\"The camera slowly circles around the couple while sunlight pours through the mansion windows, creating beautiful cinematic lens flares and soft volumetric lighting. The luxurious background remains visible with elegant decorations, giving the scene an emotional, romantic atmosphere.\",\"length\":13,\"color\":\"#a07060\"}]}",
+        "A luxurious European-style mansion at golden hour. The camera begins with a close-up behind a handsome young man wearing an elegant black suit as he slowly reaches for the large polished wooden front door. The camera gently pushes forward as he turns the brass handle and slowly opens the massive door. | Warm sunlight streams through the entrance, revealing an elegant grand foyer decorated with marble floors, crystal chandeliers, classical paintings, luxurious furniture, and beautiful architectural details. Dust particles float softly in the warm light. | The camera follows closely behind him as he steps inside. He suddenly notices a beautiful young woman standing several meters away. She has long silky dark hair, expressive eyes, soft natural makeup, and wears an elegant flowing white dress. She turns toward him with a calm expression. | \nThe man's face instantly fills with overwhelming happiness and relief. Without hesitation, he quickly walks toward her before breaking into a short run. The camera smoothly tracks alongside him. | He gently wraps both arms around her in a warm, emotional embrace. The woman is completely caught off guard. Her eyes widen in surprise, her body slightly stiffens for a brief moment, and she softly gasps. After a second, her expression gradually softens into warmth as she slowly returns the embrace. | The camera slowly circles around the couple while sunlight pours through the mansion windows, creating beautiful cinematic lens flares and soft volumetric lighting. The luxurious background remains visible with elegant decorations, giving the scene an emotional, romantic atmosphere.",
+        "12, 12, 15, 18, 27, 13",
+        0.001,
+        24,
+        "frames",
+        ""
       ],
       "color": "#232",
       "bgcolor": "#353"
-    },
-    {
-      "id": 228,
-      "type": "ConditioningCombine",
-      "pos": [
-        3560,
-        500
-      ],
-      "size": [
-        210,
-        58
-      ],
-      "flags": {},
-      "order": 48,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "conditioning_1",
-          "type": "CONDITIONING",
-          "link": 510
-        },
-        {
-          "name": "conditioning_2",
-          "type": "CONDITIONING",
-          "link": 511
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            512
-          ]
-        }
-      ],
-      "title": "Switch: Standard / PromptRelay",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.56",
-        "Node name for S&R": "ConditioningCombine"
-      },
-      "widgets_values": []
     },
     {
       "id": 229,
       "type": "PrimitiveBoolean",
       "pos": [
-        4600,
-        320
+        40,
+        4400
       ],
       "size": [
         270,
-        58
+        75.265625
       ],
       "flags": {},
-      "order": 36,
+      "order": 18,
       "mode": 0,
       "inputs": [],
       "outputs": [
         {
           "name": "BOOLEAN",
           "type": "BOOLEAN",
-          "links": [
-            513
-          ],
           "widget": {
             "name": "value"
-          }
+          },
+          "links": [
+            513
+          ]
         }
       ],
       "title": "Enable Reference Image",
       "properties": {
+        "Node name for S&R": "PrimitiveBoolean",
         "cnr_id": "comfy-core",
         "ver": "0.7.0",
-        "Node name for S&R": "PrimitiveBoolean",
         "ue_properties": {
           "widget_ue_connectable": {
             "value": true
@@ -2683,7 +2598,7 @@
         }
       },
       "widgets_values": [
-        false
+        true
       ],
       "color": "#233",
       "bgcolor": "#355"
@@ -3111,7 +3026,7 @@
       226,
       0,
       227,
-      3,
+      4,
       "INT"
     ],
     [
@@ -3123,36 +3038,20 @@
       "MODEL"
     ],
     [
-      511,
-      227,
-      1,
-      228,
-      1,
-      "CONDITIONING"
-    ],
-    [
-      510,
-      121,
-      0,
-      228,
-      0,
-      "CONDITIONING"
-    ],
-    [
-      512,
-      228,
-      0,
-      107,
-      0,
-      "CONDITIONING"
-    ],
-    [
       513,
       229,
       0,
       225,
       3,
       "BOOLEAN"
+    ],
+    [
+      511,
+      227,
+      1,
+      107,
+      0,
+      "CONDITIONING"
     ]
   ],
   "groups": [
@@ -3160,10 +3059,10 @@
       "id": 1,
       "title": "Model",
       "bounding": [
-        3000,
         0,
-        1040,
-        2160
+        0,
+        2220,
+        1660
       ],
       "color": "#b06634",
       "flags": {}
@@ -3172,10 +3071,10 @@
       "id": 2,
       "title": "Sampler Stage 1",
       "bounding": [
-        4560,
         0,
+        1700,
         1380,
-        320
+        360
       ],
       "color": "#3f789e",
       "flags": {}
@@ -3185,9 +3084,9 @@
       "title": "Prompt",
       "bounding": [
         0,
-        0,
+        2100,
         560,
-        660
+        740
       ],
       "color": "#b58b2a",
       "flags": {}
@@ -3196,10 +3095,10 @@
       "id": 6,
       "title": "Upscale Sampling",
       "bounding": [
-        5980,
         0,
+        2880,
         420,
-        280
+        320
       ],
       "color": "#3f789e",
       "flags": {}
@@ -3209,9 +3108,9 @@
       "title": "LORAS",
       "bounding": [
         0,
-        700,
+        3240,
         2960,
-        240
+        260
       ],
       "color": "#3f789e",
       "flags": {}
@@ -3221,9 +3120,9 @@
       "title": "Frame Rate",
       "bounding": [
         0,
-        980,
+        3540,
         560,
-        780
+        980
       ],
       "color": "#3f789e",
       "flags": {}
@@ -3232,10 +3131,10 @@
       "id": 12,
       "title": "Decoding",
       "bounding": [
-        6440,
         0,
-        800,
-        460
+        4560,
+        840,
+        480
       ],
       "color": "#3f789e",
       "flags": {}
@@ -3244,8 +3143,8 @@
       "id": 13,
       "title": "Save-Video",
       "bounding": [
-        7280,
         0,
+        5080,
         1640,
         1040
       ],
@@ -3257,9 +3156,9 @@
       "title": "Load Image",
       "bounding": [
         0,
-        1800,
-        400,
-        400
+        6160,
+        460,
+        440
       ],
       "color": "#8A8",
       "flags": {}
@@ -3268,10 +3167,10 @@
       "id": 15,
       "title": "Preprare Audio",
       "bounding": [
-        4080,
         0,
+        6640,
         440,
-        1020
+        1140
       ],
       "color": "#3f789e",
       "flags": {}
@@ -3284,8 +3183,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 15,
-          "lastNodeId": 226,
-          "lastLinkId": 509,
+          "lastNodeId": 229,
+          "lastLinkId": 517,
           "lastRerouteId": 0
         },
         "revision": 0,
@@ -3505,7 +3404,7 @@
               "secondTabWidth": 65
             },
             "widgets_values": [
-              561746407202052,
+              397072193173734,
               "randomize"
             ]
           },
@@ -3855,8 +3754,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 15,
-          "lastNodeId": 226,
-          "lastLinkId": 509,
+          "lastNodeId": 229,
+          "lastLinkId": 517,
           "lastRerouteId": 0
         },
         "revision": 0,
@@ -4156,7 +4055,7 @@
               "secondTabWidth": 65
             },
             "widgets_values": [
-              775228899070297,
+              296425237541399,
               "randomize"
             ]
           },
@@ -4861,10 +4760,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.2506031381291958,
+      "scale": 0.4594972986357233,
       "offset": [
-        304.8543477161188,
-        775.9644579438124
+        670.6452148509482,
+        -4812.463391302052
       ]
     },
     "frontendVersion": "1.45.19",
@@ -5267,14 +5166,6 @@
     "VHS_KeepIntermediate": true,
     "ue_links": [
       {
-        "downstream": 121,
-        "downstream_slot": 0,
-        "upstream": "146",
-        "upstream_slot": 0,
-        "controller": 211,
-        "type": "CLIP"
-      },
-      {
         "downstream": 110,
         "downstream_slot": 0,
         "upstream": "146",
@@ -5292,9 +5183,8 @@
       }
     ],
     "links_added_by_ue": [
-      507,
-      508,
-      509
+      516,
+      517
     ]
   },
   "version": 0.4
